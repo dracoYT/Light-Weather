@@ -1,3 +1,6 @@
+
+
+
 *{outline: none;}
 
 .head-cont {
@@ -8,15 +11,40 @@
     */
     background-attachment: fixed;
     background-size: 1500px 850px;
-    height: 881px;
+	height: 999px;
 
    
 
 }
 
+
+
+.tabs-size {
+	align-items: center;
+}
+.float-sub-title {
+	float: right;
+	float: top;
+	color: white;
+	text-align: center;
+}
+
+.solution-subtitle {
+	top: -5px;
+	
+	background-attachment: fixed;
+	text-align: center;
+	color: white;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
 .item {
     background-attachment: fixed;
-    padding-top: 200px;
+    padding-top: 250px;
      /* Fallback: Set a background color. */
      background-color: white;
 
@@ -48,13 +76,14 @@
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
 }
-.clouds {
-    padding-top: 650px;
+.parallax-phs {
+    padding-top: 690px;
     background: url(../images/parallax-tsio-photoshop.png);
     background-position: top center;
     height: 380px;
     background-size: auto 380px;
-    margin: -380px 0 -190px 0;
+	margin: -380px 0 -190px 0;
+	border-block-color: transparent;
 }
 
 .arduino {
